@@ -12,5 +12,5 @@ func main() {
 		data := models.Person{Name: "John", Surname: "Doe"}
 		return c.JSON(http.StatusOK, data)
 	})
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":5204"))
 }
